@@ -1,0 +1,85 @@
+<%- include("templates/menu.ejs")%>
+
+
+<div> <%= libros%> </div>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Libros - Imaginarium</title>
+        <link rel="stylesheet" href="/public/css/estiloLibros.css">
+        <link rel="stylesheet" href="/public/css/estiloTextos.css">
+    </head>
+    <body>
+
+        <section class="projects">
+            <div class="container">
+                <h1>Bienvenido al Mundo de los Libros en Imaginarium</h1>
+                <p>Explora nuestra vasta colección de libros que abarca géneros literarios para todos los gustos. Sumérgete en emocionantes novelas de aventuras, viaja a mundos de fantasía, o sumérgete en románticas historias de amor. Nuestra selección de libros te llevará en un viaje a través de emocionantes tramas y personajes cautivadores.</p>
+                <p>Además de los bestsellers más recientes, también ofrecemos clásicos literarios que han resistido el paso del tiempo. Nuestro objetivo es brindarte una experiencia de lectura única que enriquecerá tu mente y te transportará a nuevos horizontes.</p>
+                <p>Ya seas un ávido lector o alguien que busca descubrir el placer de la lectura, en Imaginarium encontrarás libros que te encantarán. Despierta tu imaginación, nutre tu conocimiento y déjate llevar por la magia de las palabras en nuestra sección de libros.</p>
+
+                <br><br>
+                <h2 class="subtitle">¿Qué puedes leer? Selecciona un libro</h2> 
+                <br><br>
+                <div class="projects__grid">
+    
+                    <article class="projects__item">
+                        <img src="/public/libros/portada 01.png" class="projects__img">
+                        <div class="projects__hover">
+                            <h2 class="projects__title" > <a href="/public/libros/01. Lenguajes de programación autor Virtuniversidad.pdf"><h1 class="textoLibro" >Lenguajes de programación autor Virtuniversidad</h1></a></h2>
+                            <i class="far fa-file-alt projects__icon"></i>
+                        </div>
+                    </article>
+
+                    <article class="projects__item">
+                        <img src="/public/libros/portada 02.png" class="projects__img">
+                        <div class="projects__hover">
+                            <h2 class="projects__title" > <a href="/public/libros/02. Lenguaje C autor Enrique Vicente Bonet Esteban.pdf"><h1 class="textoLibro" >Lenguaje C autor Enrique Vicente Bonet Esteban</h1></a></h2>
+                            <i class="far fa-file-alt projects__icon"></i>
+                        </div>
+                    </article>
+    
+                    <article class="projects__item">
+                        <img src="/public/libros/portada 03.png" class="projects__img">
+                        <div class="projects__hover">
+                            <h2 class="projects__title" > <a href="/public/libros/03. Curso NET con C autor Universidad de Alicante.pdf"><h1 class="textoLibro" >Curso NET con C autor Universidad de Alicante</h1></a></h2>
+                            <i class="far fa-file-alt projects__icon"></i>
+                        </div>
+                    </article>
+
+                    <article class="projects__item">
+                        <img src="/public/libros/portada 04.png" class="projects__img">
+                        <div class="projects__hover">
+                            <h2 class="projects__title" > <a href="/public/libros/04. El lenguaje de programación C autor José Antonio González Seco.pdf"><h1 class="textoLibro" >El lenguaje de programación C autor José Antonio González Seco</h1></a></h2>
+                            <i class="far fa-file-alt projects__icon"></i>
+                        </div>
+                    </article>
+
+                    <article class="projects__item">
+                        <img src="/public/libros/portada 05.png" class="projects__img">
+                        <div class="projects__hover">
+                            <h2 class="projects__title" > <a href="/public/libros/05. Curso de programación en C++ autor Sergio Talens Oliag.pdf"><h1 class="textoLibro" >Curso de programación en C++ autor Sergio Talens Oliag</h1></a></h2>
+                            <i class="far fa-file-alt projects__icon"></i>
+                        </div>
+                    </article>
+
+                    <article class="projects__item">
+                        <img src="/public/libros/portada 06.png" class="projects__img">
+                        <div class="projects__hover">
+                            <h2 class="projects__title" > <a href="/public/libros/06 Ing en  Sistema C++ Como Programar Deitel 6a Edicion.pdf"><h1 class="textoLibro" >Ing en  Sistema C++ Como Programar Deitel 6a Edicion</h1></a></h2>
+                            <i class="far fa-file-alt projects__icon"></i>
+                        </div>
+                    </article>
+              
+                </div>
+            </div>
+        </section>
+
+    </body>
+    </html>
+  
+   
+    <%- include("templates/footer.ejs")%>

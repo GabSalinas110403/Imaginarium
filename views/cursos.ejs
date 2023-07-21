@@ -1,0 +1,55 @@
+<%- include("templates/menu.ejs")%>
+
+<div> <%= cursos%> </div>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imaginarium</title>
+        <link rel="stylesheet" href="/public/css/estiloCursos.css">
+        <link rel="stylesheet" href="/public/css/estiloTextos.css">
+    </head>
+    <body>
+ 
+
+       <section class="container"> 
+        <h1>¡Bienvenido a los Cursos Imaginarium!</h1>
+        <p>Explora un mundo de aprendizaje y desarrollo con nuestra amplia gama de cursos diseñados para potenciar tus habilidades y conocimientos. En Imaginarium, creemos en la importancia de la formación continua y la adquisición de nuevas habilidades para mantenerse actualizado en un mundo en constante cambio.</p>
+        <br>
+        <h2>Temas de los Cursos</h2>
+        <ul>
+            <li><strong>Design Thinking:</strong> Aprende a aplicar esta metodología centrada en el usuario para la resolución creativa de problemas y la generación de ideas innovadoras.</li>
+            <li><strong>Industria 4.0:</strong> Descubre los avances tecnológicos y las tendencias que están transformando la industria y la forma en que trabajamos.</li>
+            <li><strong>Innovación Empresarial:</strong> Desarrolla habilidades para fomentar la innovación en tu empresa y encontrar nuevas oportunidades de crecimiento.</li>
+            <li><strong>IAS para negocios:</strong> Explora el potencial de la Inteligencia Artificial y su aplicación en el ámbito empresarial para mejorar la eficiencia y la toma de decisiones.</li>
+            <li><strong>Análitica de ADN:</strong> Sumérgete en el mundo de la analítica de datos y aprende a extraer conocimientos valiosos a partir de la información genética.</li>
+            <li><strong>Ciberseguridad:</strong> Adquiere conocimientos para proteger tus sistemas y datos frente a amenazas cibernéticas cada vez más sofisticadas.</li>
+            <li><strong>Protección de Datos:</strong> Conoce las mejores prácticas y regulaciones para salvaguardar la privacidad y seguridad de la información personal.</li>
+        </ul>
+    
+        <p>Nuestros cursos son impartidos por expertos en cada materia y están diseñados para adaptarse a diferentes niveles de conocimiento, desde principiantes hasta profesionales experimentados. ¡Embárcate en una experiencia de aprendizaje enriquecedora con los Cursos Imaginarium y potencia tu crecimiento personal y profesional!</p>
+
+        <br>
+        <h1>¡Entra a los Cursos para conocer más!</h1> <br>
+
+            <section class="menuLibros">
+                <button onclick="window.location.href='/desingThinking'" class="boton">Desing Thinking</button>
+                <button onclick="window.location.href='/industria_4'" class="boton">Industria 4.0</button>
+                <button onclick="window.location.href='/innovacionEmpresarial'" class="boton">Innovación Empresarial</button>
+                <button onclick="window.location.href='/iasNegocios'" class="boton">IAS para negocios</button>
+                <button onclick="window.location.href='/analiticaAdn'" class="boton">Analitica adn </button>
+                <button onclick="window.location.href='/Ciberseguridad'" class="boton">Ciberseguridad</button>
+                <button onclick="window.location.href='/proteccionDatos'" class="boton">Protección de datos</button>
+            </section>
+       </section>
+        
+        <section class="footer">
+            <%- include("templates/footer.ejs")%>
+        </section>
+
+    </body>
+    </html>
+
+ 

@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.menuLibros {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.boton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,29 @@
+/* Diseño pie de pagina*/
+.footer {
+  background-color: #00A687;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.footer div {
+  display: flex;
+  align-items: center;
+}
+
+.footer img {
+  margin-right: 10px;
+}
+
+.footer span,
+.footer p {
+  font-size: 14px;
+}
+
+.footer a {
+  color: #000;
+  text-decoration: none;
+}
+

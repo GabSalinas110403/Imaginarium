@@ -1,0 +1,93 @@
+/* DISEÑO DE MENU*/ 
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #002351, #009BDB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+
+
+    width: 100%;
+    height: 20vh;
+  }
+
+body{
+    background: linear-gradient(to right, #002351, #009BDB);  /* color fondo del contenido*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+    color: #dceaf1; /* Color de letra en menu*/
+} 
+
+.menu{
+    background: linear-gradient(to right, #002351, #009BDB); /* color fondo del div menu*/
+
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background: #2f00b0; /* Color del menu*/
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px #000;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-grid;
+    padding: 13px 35px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s;
+}
+
+nav ul li::after {
+    content: '';
+    background: #000;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+}
+
+nav ul li hover{
+    color: #fff;
+
+} 
+
+nav ul li:hover::after{
+    top: 50%;
+    opacity: 1;
+}
+
+
+
+h1{
+    font-family: serif;
+    
+}
+
+

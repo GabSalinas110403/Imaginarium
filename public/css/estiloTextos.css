@@ -1,0 +1,63 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .values ul {
+    padding-left: 20px;
+  }
+  
+  .values li {
+    margin-bottom: 10px;
+  }
+  
+  
+  h1, h2, h3{
+      color: antiquewhite;
+  }
+  li, ul, p, h4{
+      color:aliceblue;
+      text-align: justify;
+  }
+ 
+  button {
+    display: inline-block;
+
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+    background-color: #2CA3DD;
+    
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .subtitle{
+    text-align: center;
+  }
+
+  .textoLibro{
+    color: black;
+  }
